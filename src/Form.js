@@ -28,7 +28,7 @@ function fizzBuzz(n) {
     for (let i = 1; i <= n; i++) {
         //is the number a multiple of 3 and 5?
         if (i % 3 === 0 && i % 5 === 0) {  //could also just do i % 15 === 0
-            arr.push('fizzbuzz');
+            arr.push('fizzBuzz');
             //  if we meet this case, we don't any execute any other code inside the for loop...so we use else if statements instead of separate if statements
         } else if (i  % 3 === 0) {
             arr.push('fizz');

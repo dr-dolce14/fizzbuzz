@@ -9,7 +9,7 @@ class Result extends React.Component {
            return (
            <div key={index} className='item'>
                <div className='content'>
-                   <div className='header' style={result === 'fizz' || result === 'buzz' ? {color: 'red'} : {color: 'purple'}}>
+                   <div className='header' style={result === 'fizz' || result === 'buzz' || result === 'fizzBuzz' ? {color: 'red'} : {color: 'black'}}>
                        {result}
                        
                    </div>
